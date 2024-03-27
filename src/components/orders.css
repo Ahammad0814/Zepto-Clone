@@ -1,0 +1,245 @@
+.Orders-Div{
+    background-color: #ffff;
+}
+.order-main-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    margin: 0px;
+}
+.orders-inner-div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    border: solid 1px lightgrey;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 15px;
+    background-color: #ffff;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 1;
+}
+.orders-outer-div{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    margin-top: 100px;
+    margin-left: 110px;
+    background-color: #ffff;
+}
+.order-info-div{
+    width: 70%;
+}
+.orders-name{
+    width: 100%;
+    font-weight: bold;
+}
+.orders-id{
+    margin-top: 30px;
+}
+.orders-date,
+.orders-id{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(100,116,139,255);
+}
+
+.orders-price-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.orders-cost{
+    font-weight: bold;
+    margin: 15px;
+}
+.orders-status{
+    margin: 15px;
+    border: none;
+    width: 80px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(82,183,93,255);
+    color: #ffff;
+}
+
+.Orders-detail-button-div{
+    width: 84.3%;
+    height: 40px;
+}
+.orders-detail-button{
+    width: 100%;
+    height: 40px;
+    background-color: #ffff;
+    border: solid 1px lightgrey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+.orders-detail-button img{
+    width: 70px;
+    height: 60%;
+}
+
+.order-products-inner-div{
+    width: 80%;
+    padding: 20px 30px;
+    height: auto;
+    border: solid 1px lightgrey;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    visibility: hidden;
+}
+.order-product-div{
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    position: relative;
+    visibility: hidden;
+}
+.order-product-img{
+    width: 100px;
+    margin-right: 20px;
+}
+.order-produts-qty-btn{
+    margin-left: 20px;
+    font-size: 17px;
+    background: none;
+    border: none;
+    color: grey;
+}
+
+
+.Orders-Empty-div{
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Orders-Empty-img{
+    width: 500px;
+}
+.Orders-Empty-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px #FF3269;
+    color: #FF3269;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ffff;
+    cursor: pointer;
+}
+
+@media(min-width: 500px){
+    .Orders-detail-button-div{
+        width: 92%;
+    }
+}
+@media(min-width: 550px){
+    .Orders-detail-button-div{
+        width: 91%;
+    }
+}
+@media(min-width: 600px){
+    .Orders-detail-button-div{
+        width: 90%;
+    }
+}
+@media(max-width: 600px){
+    .Orders-Empty-div{
+        width: 100%;
+        height: 100%;
+        margin-left: 50px;
+        background-color: #ffff;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .order-main-div{
+        margin-left: 10px;
+    }
+    h2{
+        margin-top: 150px;
+        margin-left: 20px;
+        background-color: #ffff;
+    }
+    .orders-cost{
+        font-weight: bold;
+        margin: 10px -10px;
+    }
+    .orders-status{
+        margin: 10px -10px;
+    }
+    .Orders-detail-button-div{
+        width: 97%;
+        height: 40px;
+    }
+}
+@media(min-width: 650px){
+    .Orders-detail-button-div{
+        width: 89%;
+    }
+}
+@media(min-width: 700px){
+    .Orders-detail-button-div{
+        width: 88%;
+    }
+
+}
+@media(min-width: 750px){
+    .Orders-detail-button-div{
+        width: 87%;
+    }
+}
+@media(min-width: 800px){
+    .Orders-detail-button-div{
+        width: 86%;
+    }
+}
+@media(min-width: 850px){
+    .Orders-detail-button-div{
+        width: 85%;
+    }
+}
+@media(min-width: 1000px){
+    .Orders-detail-button-div{
+        width: 84.3%;
+    }
+}
